@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Register Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="box">
+    <form autocomplete="off">
+      <h2>Sign Up</h2>
+      <div class="inputBox">
+        <input type="email" id="email" required="required" autocomplete="off" />
+        <span>Email</span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <input type="text" id="name" required="required" autocomplete="off" />
+        <span>Username</span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <input type="password" id="password" required="required" autocomplete="off" />
+        <span>Password</span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <input type="password" id="password2" required="required" autocomplete="off" />
+        <span>Confirm Password</span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <div class="avatar-container">
+          <div class="avatar-preview">
+            <img src="./images/profile/p1.png" alt="Avatar 1">
+          </div>
+          <input type="radio" id="avatar1.jpg" name="avatar" value="1" class="avatar-input">
+          <label for="avatar1.jpg" class="avatar-label">Avatar 1</label>
+        </div>
+        <div class="avatar-container">
+          <div class="avatar-preview">
+            <img src="./images/profile/p2.png" alt="Avatar 2">
+          </div>
+          <input type="radio" id="avatar2.jpg" name="avatar" value="2" class="avatar-input">
+          <label for="avatar2.jpg" class="avatar-label">Avatar 2</label>
+        </div>
+        <div class="avatar-container">
+          <div class="avatar-preview">
+            <img src="./images/profile/p3.png" alt="Avatar 3">
+          </div>
+          <input type="radio" id="avatar3.jpg" name="avatar" value="3" class="avatar-input">
+          <label for="avatar3.jpg" class="avatar-label">Avatar 3</label>
+        </div>
+        <div class="avatar-container">
+          <div class="avatar-preview">
+            <img src="./images/profile/p4.png" alt="Avatar 4">
+          </div>
+          <input type="radio" id="avatar4.jpg" name="avatar" value="4" class="avatar-input">
+          <label for="avatar4.jpg" class="avatar-label">Avatar 4</label>
+        </div>
+      </div>
+      <div class="links">
+        <a href="login.html">Already Signed up? Login Here</a>
+      </div>
+      <input type="button" onclick="adduser()" value="Register" />
+    </form>
+  </div>
+</body>
+<script src="./js/signup.js"></script>
+
+</html>
