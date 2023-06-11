@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Bot</title>
+  <link rel="stylesheet" href="chat.css">
+  <script src="./js/cookies.js"></script>
+</head>
+<body>
+  <li class="logout" id = "Logout"><a href="" onclick="Logout()">Logout</a></li>
+  <div class="logo" ><img src="./images/logo1.svg" alt=""></div>
+  <div class="chat-container">
+    <div class="chat-messages" id="chatMessages"></div>
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Type your message...">
+      <button id="sendButton">Send</button>
+    </div>
+  </div>
+  <div id="cookieMessage" style="display: none;">
+    Cookies are disabled. Please enable cookies to access this website.
+  </div>
+
+  <script src="./js/chat.js"></script>
+</body>
+</html>
