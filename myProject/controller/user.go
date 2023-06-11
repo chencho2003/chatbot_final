@@ -6,7 +6,7 @@ import (
 	"myProject/model"
 	"myProject/utils/httpResp"
 	"net/http"
-	"myProject/datastore/postgres"
+	
 "fmt"
 	"time"
 	"golang.org/x/crypto/bcrypt"
