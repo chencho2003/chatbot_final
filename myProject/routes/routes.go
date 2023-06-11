@@ -17,7 +17,7 @@ func InitializerRoutes() {
 	//creating routes using handler for login...
 	router.HandleFunc("/login", controller.Loginhandler).Methods("POST")
 	//updating password
-	router.HandleFunc("/update", controller.UpdatePassword).Methods("PUT")
+
 	//teaching bot
 	router.HandleFunc("/teach", controller.TeachingBot).Methods("POST")
 	//deleting data
